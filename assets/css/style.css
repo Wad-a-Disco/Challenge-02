@@ -79,3 +79,130 @@ nav a {
     text-shadow: 2px 2px 4px #000000;
   }
   
+/*Contact Me Styling*/
+footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .footer-links a:hover {
+    color: lightgray;
+  }
+  
+  .footer-container p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-container p:before {
+    content: "\00a9 ";
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-links {
+      margin-top: 10px;
+    }
+    .footer-links li {
+      margin-right: 10px;
+    }
+  }
+  
+/*Responsive Veiwport*/
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles as needed */
+    header nav {
+      display: none;
+    }
+  
+    #about-me {
+      margin-top: 50px;
+    }
+  
+    #my-work .project-box {
+      width: 100%;
+    }
+  
+    #contact-me {
+      margin-top: 50px;
+    }
+  
+    footer {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  /* For screens larger than 600px */
+  @media only screen and (min-width: 600px) {
+    /* Adjust styles as needed */
+    header nav {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 50px;
+    }
+  
+    #about-me {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    #my-work .project-box {
+      width: 48%;
+    }
+  
+    #contact-me {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+  }
+  
