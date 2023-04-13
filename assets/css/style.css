@@ -25,23 +25,23 @@ nav a {
 /*About me styling*/
 #about-me {
     position: relative;
-  }
+}
   
-  #about-me h2 {
+#about-me h2 {
     position: absolute;
-    top: 45%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 48px;
+    font-size: 70px;
     color: red;
-    opacity: 0.3;
-    font-size: 35px;
-  }
+    opacity: 0.4;
+    font-weight: bold;
+    line-height: 1.2;
+}
   
-  #about-me p {
+#about-me p {
     position: relative;
     z-index: 1;
-  }
-  
+}
 
 /*My work Styling*/
