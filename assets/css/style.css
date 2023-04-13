@@ -7,7 +7,7 @@ header {
 
 nav {
     list-style: none; /* remove bullet points */
-  }
+}
   
 nav li {
     display: inline-block;
@@ -17,38 +17,4 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 35px;
-}
-
-/*Contact Me Styling*/
-#contact-me{
-    background-color: darkcyan;
-    padding: 7px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#contact-me h2 {
-    margin-bottom: 20px;
-    font-size: 35px;
-    color: white;
-    flex: 0 0 100%;
-    text-align: left;
-}
-
-#contact-me ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-}
-
-#contact-me li {
-    margin: 0 15px;
-    font-size: 15px;
-    color: white;
 }
